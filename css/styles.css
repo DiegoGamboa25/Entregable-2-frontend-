@@ -5,7 +5,7 @@ body {
 }
 
 .hero {
-  background: url("/img/Fondohero.webp") center/cover no-repeat;
+  background: url("img/Fondohero.webp") center/cover no-repeat;
   height: 400px;
   position: relative;
 }
@@ -82,7 +82,7 @@ body {
 }
 
 :root {
-  --color-fondo-izq: url("/img/login.webp");
+  --color-fondo-izq: url("img/login.webp");
 }
 
 /* Ajustes del navbar */
