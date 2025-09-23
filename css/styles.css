@@ -1,0 +1,113 @@
+/* Estilos personalizados */
+body {
+  font-family: Arial, sans-serif;
+
+}
+
+.hero {
+  background: url("/img/Fondohero.webp") center/cover no-repeat;
+  height: 400px;
+  position: relative;
+}
+
+.hero .overlay {
+  background: rgb(7 7 7 / 46%);
+}
+
+
+
+/* Variables personalizadas */
+:root {
+  --color-principal: #6a1b47; /* morado */
+  --color-fondo-izq: url("https://picsum.photos/600/800?random=2");
+}
+
+/* Columna izquierda con imagen */
+.login-left {
+  background: var(--color-fondo-izq) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+/* Overlay oscuro */
+.login-left::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Texto dinámico */
+.text-overlay::before {
+  content: var(--frase-tienda);
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--color-principal);
+  text-align: center;
+}
+
+.text-overlay::after {
+  content: var(--frase-continuacion);
+  display: block;
+  font-size: 0.9rem;
+  color: #f1f1f1;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+
+/* Texto personalizado */
+.text-primary-custom {
+  color: var(--color-principal);
+}
+
+/* Botón personalizado */
+.btn-primary-custom {
+  background-color: var(--color-principal);
+  border: none;
+  color: #fff;
+}
+
+.btn-primary-custom:hover {
+  background-color: #531537;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .login-left {
+    display: none;
+  }
+}
+
+:root {
+  --color-fondo-izq: url("/img/login.webp");
+}
+
+/* Ajustes del navbar */
+.navbar {
+  font-size: 0.95rem;
+}
+
+.nav-link {
+  color: #333;
+  margin-right: 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--color-principal);
+  font-weight: 500;
+}
+
+.navbar-brand {
+  font-size: 1rem;
+  color: #111;
+}
+
+
+/* Servicios */
+.service-icon {
+  color: #000; /* puedes cambiar a tu color corporativo */
+}

@@ -1,0 +1,1 @@
+// Funciones JS personalizadas (carrito, validaciones, etc.)
