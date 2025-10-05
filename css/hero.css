@@ -1,0 +1,9 @@
+.hero {
+  background: url("../img/Fondohero.webp") center/cover no-repeat;
+  height: 400px;
+  position: relative;
+}
+
+.hero .overlay {
+  background: rgb(7 7 7 / 46%);
+}

@@ -1,0 +1,21 @@
+
+/* Ajustes del navbar */
+.navbar {
+  font-size: 0.95rem;
+}
+
+.nav-link {
+  color: #333;
+  margin-right: 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--color-principal);
+  font-weight: 500;
+}
+
+.navbar-brand {
+  font-size: 1rem;
+  color: #111;
+}
