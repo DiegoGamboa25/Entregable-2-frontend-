@@ -1,5 +1,4 @@
 //Este se encarga de detectar el usuario activo y cambiar el texto del navbar
-
 document.addEventListener("DOMContentLoaded", () => {
   const checkAuth = () => {
     const loginLink = document.getElementById("login-link");

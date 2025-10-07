@@ -1,4 +1,4 @@
-// contact.js
+
 // Simula el envío del formulario y guarda los datos localmente sin afectar estilos ni backend.
 
 document.addEventListener("DOMContentLoaded", () => {

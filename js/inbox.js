@@ -1,4 +1,4 @@
-// inbox.js
+
 // Lee los mensajes guardados en localStorage y los muestra en una tabla.
 
 document.addEventListener("DOMContentLoaded", () => {
